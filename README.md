@@ -23,8 +23,8 @@ By using DrugGPT, you acknowledge and agree to these terms and conditions. It is
 
 
 
-## Pre-trained Model
-The trained model is available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
+## Model Parameters
+The model parameters are available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
 
 ## Full Model
 To access the full model, visit our demo [DrugGPT Demo](https://demo-drug-gpt.vercel.app/en).
