@@ -23,8 +23,6 @@ By using DrugGPT, you acknowledge and agree to these terms and conditions. It is
 
 
 
-## Model Parameters
-The model parameters are available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
 
 ## Full Model
 To access the full model, visit our demo [DrugGPT Demo](https://demo-drug-gpt.vercel.app/en).
@@ -144,6 +142,9 @@ The source data can be accessed at:
 8. **PubMedQA**: [PubMedQA Homepage](https://pubmedqa.github.io/)
 
 The preprocessed data is too large for GitHub, you can download the pre-processed data from [Google Drive](https://drive.google.com/drive/folders/1Cd1KdWzCdD0iOUE2HB9BZa8ReVoHVc11?usp=drive_link) (please send us an email for access).
+
+## Model Parameters
+The model parameters are available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
 
 ### Data Preprocessing Process
 
