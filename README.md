@@ -143,8 +143,6 @@ The source data can be accessed at:
 
 The preprocessed data is too large for GitHub, you can download the pre-processed data from [Google Drive](https://drive.google.com/drive/folders/1Cd1KdWzCdD0iOUE2HB9BZa8ReVoHVc11?usp=drive_link) (please send us an email for access).
 
-## Model Parameters
-The model parameters are available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
 
 ### Data Preprocessing Process
 
@@ -229,6 +227,9 @@ To run the training process, use the following command:
 ```bash
 python3 train.py --dataset FT1 --train_file path/to/FT1_train.xml --val_file path/to/FT1_val.xml --config configs/model.yaml --output_root output/FT1_training
 ```
+
+### Model Parameters
+The model parameters are available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
 
 ## Evaluation
 ### Prerequisites:
