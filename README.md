@@ -25,7 +25,7 @@ By using DrugGPT, you acknowledge and agree to these terms and conditions. It is
 
 
 ## Full Model
-To access the full model, visit our demo [DrugGPT Demo]([https://demo-drug-gpt.vercel.app/en](https://demo-druggpt-beta.vercel.app/en)).
+To access the full model, visit our demo [DrugGPT Demo](https://demo-druggpt-beta.vercel.app/en).
 
 ### Instruction on how to use the demo for drug analysis and inquiry
 
