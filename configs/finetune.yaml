@@ -1,0 +1,41 @@
+
+
+
+llama:
+  model_name: ""
+  max_length: 512
+  soft_prompt_length: 100
+  use_auth_token: false
+
+
+gcn:
+  input_dim: 768
+  hidden_dim: 1024
+  output_dim: 2048
+  num_layers: 3
+  dropout: 0.1
+
+
+training:
+  epochs: 20
+  batch_size: 4
+  learning_rate: 1e-3
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  save_steps: 100
+  log_dir: "runs/soft_prompt_tuning"
+  checkpoint_dir: "checkpoints/soft_prompts"
+  freeze_llm: true
+  
+
+data:
+  train_file: "data/finetune/FT1.csv"
+  val_file: "data/finetune/FT2.csv"
+  test_file: "data/finetune/FT3.csv"
+  knowledge_graph_path: "data/drug_disease_kg.json"
+  max_samples: 1000
+  
+
+dsdg:
+  tau: 0.1
+  k: 5

@@ -1,0 +1,39 @@
+
+
+
+LLAMA_CONFIGS:
+  model_name: ""  
+  max_length: 512  
+  soft_prompt_tokens: 20  
+  use_auth_token: false  
+
+
+GCN_CONFIGS:
+  input_dim: 768  
+  hidden_dim: 1024  
+  output_dim: 2048  
+  num_layers: 3  
+  dropout: 0.1  
+
+
+SOFT_PROMPT_CONFIGS:
+  prompt_length: 10  
+
+
+TRAINING_CONFIGS:
+  epochs: 5  
+  batch_size: 4  
+  learning_rate: 2.0e-5  
+  optimizer: "AdamW"  
+  scheduler: "CosineAnnealingLR"  
+  scheduler_args:
+    T_max: 1000  
+  max_grad_norm: 1.0  
+  logging_interval: 10  
+  save_interval: 100  
+  
+
+DATA_CONFIGS:
+  data_path: "data/drug_disease_kg.json"  
+  train_data: "data/train.csv"  
+  val_data: "data/val.csv"  
