@@ -228,7 +228,7 @@ python3 train.py --dataset FT1 --train_file path/to/FT1_train.xml --val_file pat
 ```
 
 ### Model Parameters
-The model parameters are available at [Google Drive](https://drive.google.com/file/d/1jyavc13OdwzVZaTDdo6oEm4_adjr_nO8/view?usp=sharing).
+The model parameters are available at [HuggingFace](https://huggingface.co/jinge13288/DrugGPT-LLaMA-7B).
 
 ## Evaluation
 ### Prerequisites:
